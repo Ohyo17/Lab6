@@ -15,7 +15,7 @@ print(Response)
 print("----Welcome to online calculator for Square Root / Log / Exponential-----\n")
 while True:
 
-    function = input("Enter Sqrt / Log / Expo or (Exit to exit the program) : ")
+    function = input("Enter Sqrt / Log(base 10) / Expo or (Exit to exit the program) : ")
     if(function == 'Log'):
                value = input("Please enter 1 value:")
     elif(function == 'Sqrt'):
