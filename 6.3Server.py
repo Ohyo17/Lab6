@@ -11,7 +11,8 @@ def calcLog(x):
     print(x)
     x = int(x)
     try:
-            answer = math.log(x)
+            #Base 10 for Log
+            answer = math.log(x,10)
     except:
             answer = "Please enter the right value"
     print(answer)
@@ -20,6 +21,7 @@ def calcLog(x):
 def calcSqrt(x):
     print("Calculate Square root",x)
     x = int(x)
+    #Square Root not work with negative
     if(x >= 0):
               try:
                    answer = math.sqrt(x)
