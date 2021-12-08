@@ -10,11 +10,8 @@ def calcLog(x):
     print("Calculate Log:",x )
     print(x)
     x = int(x)
-    try:
-            #Base 10 for Log
-            answer = math.log(x,10)
-    except:
-            answer = "Please enter the right value"
+    #Base 10 for Log
+    answer = math.log(x,10)
     print(answer)
     return answer
 
@@ -23,10 +20,7 @@ def calcSqrt(x):
     x = int(x)
     #Square Root not work with negative
     if(x >= 0):
-              try:
-                   answer = math.sqrt(x)
-              except:
-                   answer = "Please enter the right value"
+        answer = math.sqrt(x)
     else:
         answer = "Please enter the right value"
     print(answer)
@@ -35,10 +29,7 @@ def calcSqrt(x):
 def calcExpo(x):
     print("Calculate Exponential",x)
     x = float(x)
-    try:
-            answer = math.exp(x)
-    except:
-            answer = "Please enter the right value"
+    answer = math.exp(x)
     print(answer)
     return answer
 
